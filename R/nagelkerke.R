@@ -1,3 +1,4 @@
+# @export
 nagelkerke <- function(m, lambda = "min") {
     class_m <- class(m)
     is_glmnet <- "glmnet" %in% class_m
